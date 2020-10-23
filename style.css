@@ -83,7 +83,7 @@ nav ul li a {
     .nav-wrapper ul li a {
         padding: 10px 24px;
         opacity: 0;
-        color: #DBD4DD;
+        color: #000;
         font-size: 14px;
         font-weight: 600;
         letter-spacing: 1.2px;
@@ -157,6 +157,67 @@ nav ul li a {
 .hidden {
     display: none;
 }
+
+/* Header with picture */
+.header {
+    height: 100vh;
+    background-color: rgb(219,212,221);
+    margin-top: 50px;
+    background-image: url(./Images/Background\ shapes.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.header-img {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.header-title {
+    color: #291464;
+    text-transform: uppercase;
+    margin: auto;
+    text-shadow: 1.5px 1.5px 1.5px #ffb500;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.header-hr {
+    width: 30%;
+    margin-bottom: 20px;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #ffb500;
+}
+
+.action-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(90deg, #7C5ADB, #ff2d98, #ffb500, #7C5ADB);
+    background-size: 400%;
+    border-radius: 30px;
+    padding: 1em 3em;
+    z-index: 1;
+}
+
+.action-btn:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+
+
 
 
 
