@@ -188,7 +188,7 @@ nav ul li a {
     margin-bottom: 20px;
     height: 12px;
     border: 0;
-    box-shadow: inset 0 12px 12px -12px #ffb500;
+    box-shadow: inset 0 12px 12px -12px #7d668e;
 }
 
 .action-btn {
@@ -213,6 +213,24 @@ nav ul li a {
     100% {
         background-position: 400%;
     }
+}
+
+h2 {
+    color: #291464;
+}
+
+.introduction-card {
+    text-align: center;
+    margin: 3rem;
+    padding: 3rem;
+    line-height: 1.5rem;
+}
+
+span {
+    color: #291464;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: inset 0 12px 12px -12px #7d668e;
 }
 
 
